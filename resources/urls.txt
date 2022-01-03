@@ -1,0 +1,2 @@
+https://www.edureka.co/blog/mapreduce-tutorial/ [mapreduce tutorial]
+https://www.geeksforgeeks.org/mapreduce-program-weather-data-analysis-for-analyzing-hot-and-cold-days/ [all mapreduce examples]

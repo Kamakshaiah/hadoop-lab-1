@@ -1,0 +1,17 @@
+total 61584
+drwxr-xr-x 1 kamak 197609        0 Dec  1 22:08 bin/
+drwxr-xr-x 1 kamak 197609        0 Dec  1 21:36 data/
+-rw-r--r-- 1 kamak 197609  2747878 Jun 15 10:45 guava-27.0-jre.jar
+-rw-r--r-- 1 kamak 197609 19406393 Jun 15 11:16 hadoop-client-api-3.3.1.jar
+-rw-r--r-- 1 kamak 197609 31717292 Jun 15 11:18 hadoop-client-runtime-3.3.1.jar
+-rw-r--r-- 1 kamak 197609  6268296 Jun 15 10:48 hadoop-hdfs-3.3.1.jar
+-rw-r--r-- 1 kamak 197609  1636326 Jun 15 11:09 hadoop-mapreduce-client-core-3.3.1.jar
+-rw-r--r-- 1 kamak 197609   489884 Jun 15 10:45 log4j-1.2.17.jar
+drwxr-xr-x 1 kamak 197609        0 Dec  1 21:36 output/
+-rw-r--r-- 1 kamak 197609        0 Dec  1 22:56 requirements.txt
+-rw-r--r-- 1 kamak 197609    41472 Jun 15 10:44 slf4j-api-1.7.30.jar
+-rw-r--r-- 1 kamak 197609     7892 Dec  1 22:08 slf4j-jdk14-1.7.9.jar
+-rw-r--r-- 1 kamak 197609    12211 Jun 15 10:44 slf4j-log4j12-1.7.30.jar
+drwxr-xr-x 1 kamak 197609        0 Dec  1 21:24 src/
+-rw-r--r-- 1 kamak 197609   195909 Jun 15 10:45 stax2-api-4.2.1.jar
+-rw-r--r-- 1 kamak 197609   522360 Jun 15 10:45 woodstox-core-5.3.0.jar

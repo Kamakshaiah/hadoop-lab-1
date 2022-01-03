@@ -1,0 +1,1000 @@
+  671  ls
+  672  cd ..
+  673  ls
+  674  cd ..
+  675  ls
+  676  sudo gedit WordCountAverage.java 
+  677  ls
+  678  sudo rm -rf wordcountavg/
+  679  ls
+  680  sudo mkdir wordcountavg
+  681  ls
+  682  sudo javac -classpath ${HADOOP_CLASSPATH} -d /home/hduser/mapreduce/wordcountavg/ /home/hduser/mapreduce/WordCountAverage.java
+  683  ls
+  684  cd wordcount
+  685  cd ..
+  686  cd wordcountavg/
+  687  ls
+  688  cd ..
+  689  ls
+  690  sudo jar -cvf wordcountavg.jar -C wordcountavg/ .
+  691  ls
+  692  hadoop jar '/home/hduser/mapreduce/wordcountavg.jar' /dir1/input/text.txt /dir1/output3
+  693  hadoop jar '/home/hduser/mapreduce/wordcountavg.jar' WordCountAverage /dir1/input/text.txt /dir1/output3
+  694  hdfs dfs -ls /dir1/output3/
+  695  hdfs dfs -cat /dir1/output3/part-r-00000
+  696  hdfs dfs -cat /dir1/output2/part-r-00000
+  697  clear
+  698  cd ..
+  699  ls
+  700  sudo mkdir algor
+  701  ls
+  702  cd algor/
+  703  ls
+  704  sudo gedit average_algor
+  705  cd ..
+  706  ls
+  707  sudo mkdir unprocessed
+  708  ls
+  709  cd unprocessed/
+  710  wget 'https://svn.apache.org/repos/asf/hadoop/common/trunk/hadoop-mapreduce-project/hadoop-mapreduce-examples/src/main/java/org/apache/hadoop/examples/WordStandardDeviation.java'
+  711  sudo wget 'https://svn.apache.org/repos/asf/hadoop/common/trunk/hadoop-mapreduce-project/hadoop-mapreduce-examples/src/main/java/org/apache/hadoop/examples/WordStandardDeviation.java'
+  712  cd /etc/apt/
+  713  sudo gedit apt.conf
+  714  cd 
+  715  cd unprocessed/
+  716  ls
+  717  sudo wget 'https://svn.apache.org/repos/asf/hadoop/common/trunk/hadoop-mapreduce-project/hadoop-mapreduce-examples/src/main/java/org/apache/hadoop/examples/WordStandardDeviation.java'
+  718  sudo wget https://svn.apache.org/repos/asf/hadoop/common/trunk/hadoop-mapreduce-project/hadoop-mapreduce-examples/src/main/java/org/apache/hadoop/examples/WordStandardDeviation.java
+  719  sudo gedit /etc/apt/apt.conf
+  720  ls
+  721  sudo gedit WordStandardDeviation.java
+  722  clear
+  723  cd 
+  724  stop-all.sh
+  725  jps
+  726  exit
+  727  start-all.sh 
+  728  jps
+  729  pig
+  730  hadoop version
+  731  cd /usr/local
+  732  ls
+  733  sudo mkdir hive
+  734  cd 
+  735  owd
+  736  pdd
+  737  pwd
+  738  cd /home/ubuntu/Downloads/
+  739  ls
+  740  cd apache-hive-2.3.6-bin/
+  741  ls
+  742  cd
+  743  pwd
+  744  sudo mv /home/ubuntu/Downloads/apache-hive-2.3.6-bin/ * /usr/local/hive/
+  745  cd /usr/local/hive/
+  746  ls
+  747  pwd
+  748  ls
+  749  cd apache-hive-2.3.6-bin/
+  750  ls
+  751  cd ..
+  752  ls
+  753  cd 
+  754  ls
+  755  pwd
+  756  cd /usr/local/hive/ * /home/hduser/
+  757  ls
+  758  sudo mv /usr/local/hive/ * /home/hduser/
+  759  ls
+  760  cd 
+  761  ls
+  762  pwd
+  763  cd apache-hive-2.3.6-bin/
+  764  ls
+  765  cd /usr/local
+  766  ls
+  767  sudo mkdir hive
+  768  ls
+  769  cd 
+  770  cd apache-hive-2.3.6-bin/
+  771  ls
+  772  sudo mv * /usr/local/hive/
+  773  ls
+  774  cd ..
+  775  ls
+  776  sudo rm r apache-hive-2.3.6-bin/
+  777  sudo rm -r apache-hive-2.3.6-bin/
+  778  ls
+  779  cd hive/
+  780  ls
+  781  cd ..
+  782  sudo rm -r hive/
+  783  ls
+  784  cd /usr/local/hive/
+  785  ls
+  786  cd conf/
+  787  ls
+  788  cd 
+  789  sudo gedit .bashrc
+  790  source .bashrc
+  791  hive
+  792  schematool -dbType mysql -info
+  793  stop-all.sh
+  794  jps
+  795  exit
+  796  ls
+  797  start-all.sh
+  798  jps
+  799  hive
+  800  hbase
+  801  pig
+  802  cd /usr/local
+  803  ls
+  804  sudo mkdir pig
+  805  ls
+  806  cd 
+  807  ls
+  808  sudo gedit .bashrc 
+  809  source .bashrc 
+  810  pig
+  811  exit
+  812  cd 
+  813  su hduser
+  814  exit
+  815  cd 
+  816  pig
+  817  sudo gedit .bashrc
+  818  source .bashrc 
+  819  pig
+  820  ls
+  821  cd text_files/
+  822  ls
+  823  cat samplTest.txt 
+  824  sudo students.txt
+  825  sudo gedit students.txt
+  826  cd 
+  827  pig
+  828  pig -x local
+  829  sudo gedit .bashrc
+  830  source .bashr
+  831  source .bashrc
+  832  cd $HBASE_HOME
+  833  LS
+  834  ls
+  835  cd conf/
+  836  ls
+  837  sudo gedit hbase-env.sh
+  838  update-alternatives --display java
+  839  sudo gedit hbase-env.sh
+  840  ls
+  841  sudo gedit hbase-site.xml 
+  842  cd 
+  843  hbase
+  844  hbase shell
+  845  cd $HBASE_HOME
+  846  ls
+  847  cd conf/
+  848  ls
+  849  sudo gedit hbase-site.xml 
+  850  cd 
+  851  hbase shell
+  852  exit
+  853  cd 
+  854  jps
+  855  stop-all.sh
+  856  exit
+  857  cd 
+  858  hadoop version
+  859  pig --version
+  860  hive --version
+  861  hbase --version
+  862  hbase version
+  863  spark --version
+  864  spark-submit --version
+  865  spark-shell
+  866  exit
+  867  cd 
+  868  ls
+  869  start-all.sh
+  870  jps
+  871  pig --version
+  872  ll 
+  873  cd algor/
+  874  ls
+  875  cd 
+  876  hadoop fs -ls /
+  877  ls
+  878  sudo mkdir -p  data/pig
+  879  ls
+  880  sudo cp /etc/passwd data/pig/
+  881  cd data/pig/
+  882  ls
+  883  pig -x local
+  884  sudo pig -x local
+  885  pig -x local
+  886  exit
+  887  pig --version
+  888  exit
+  889  cd 
+  890  ls
+  891  cd data/pig/
+  892  sudo gedit passw-pig-script.pig
+  893  pig -x local passw-pig-script.pig 
+  894  sudo gedit students.txt
+  895  cd ..
+  896  cd 
+  897  exit
+  898  stop-all.sh
+  899  exit
+  900  cd 
+  901  ls
+  902  cd data/pig/
+  903  ls
+  904  sudo students-grade.pig
+  905  sudo gedit students-grade.pig
+  906  pig -x local students-grade.pig 
+  907  sudo gedit students-grade.pig
+  908  ls
+  909  pig -x local students-grade.pig 
+  910  sudo gedit students-grade.pig
+  911  sudo gedit data.txt
+  912  sudo gedit data-analysis.pig
+  913  pig -x local data-analysis.pig 
+  914  sudo gedit data-analysis.pig
+  915  pig -x local data-analysis.pig 
+  916  sudo gedit data-analysis.pig
+  917  sudo gedit data.txt
+  918  pig -x local data-analysis.pig 
+  919  sudo gedit data.txt
+  920  pig -x local data-analysis.pig 
+  921  sudo gedit data.txt
+  922  pig -x local data-analysis.pig 
+  923  sudo gedit data-analysis.pig 
+  924  pig -x local data-analysis.pig 
+  925  sudo gedit data-analysis.pig 
+  926  pig -x local data-analysis.pig 
+  927  sudo gedit data-analysis.pig 
+  928  sudo gedit column-wise-processing.pig
+  929  ls
+  930  sudo data tuples.txt
+  931  sudo gedit tuples.txt
+  932  sudo gedit columnar-processing.pig
+  933  ls
+  934  sudo gedit columnar-processing.pig
+  935  pig -x local columnar-processing.pig 
+  936  sudo gedit columnar-processing.pig
+  937  pig -x local columnar-processing.pig 
+  938  cat tuples.txt 
+  939  sudo gedit columnar-processing.pig
+  940  exit
+  941  cd 
+  942  cd data/pig/
+  943  exit
+  944  cd 
+  945  cd data/pig/
+  946  ls
+  947  sudo gedit join-demo.pig
+  948  ls
+  949  sudo gedit join-demo.pig
+  950  cat students.txt 
+  951  cat join-demo.csv 
+  952  pig -x local join-demo.pig
+  953  sudo gedit join-demo.pig
+  954  cat students
+  955  cat students.txt 
+  956  ls
+  957  sudo gedit join-demo.pig 
+  958  pig -x local join-demo.pig
+  959  sudo gedit hetegogen.txt
+  960  sudo gedit heterogen.pig
+  961  pig -x local heterogen.pig 
+  962  ls
+  963  sudo mv hetegogen.txt heterogen.txt
+  964  ls
+  965  pig -x local heterogen.pig 
+  966  cat heterogen.txt
+  967  cat heterogen.pig
+  968  sudo gedit bag.txt
+  969  sudo gedit bag-demo.pig
+  970  pig -x local bag-demo.pig 
+  971  sudo gedit bag-demo.pig
+  972  cat bag.txt 
+  973  cat bag-demo.pig 
+  974  pig -x local bag-demo.pig 
+  975  sudo gedit bag-demo.pig
+  976  pig -x local bag-demo.pig 
+  977  sudo gedit intoToCharArray.pig
+  978  cat tuples.txt 
+  979  sudo gedit singletuple.txt
+  980  sudo gedit intoToCharArray.pig
+  981  ls
+  982  ll
+  983  pig -x local intoToCharArray.pig 
+  984  ll
+  985  sudo rm singletuple.txt 
+  986  ls
+  987  ll
+  988  sudo gedit intoToCharArray.pig 
+  989  pig -x local intoToCharArray.pig 
+  990  pig -x local
+  991  sudo gedit intoToCharArray.pig 
+  992  pig -x local intoToCharArray.pig 
+  993  sudo gedit urls.txt
+  994  sudo gedit clickstream.pig
+  995  ls
+  996  sudo gedit intoToCharArray.pig 
+  997  sudo gedit clickstream.pig 
+  998  pig -x local clickstream.pig
+  999  sudo gedit clickstream.pig 
+ 1000  cat clickstream.
+ 1001  cat clickstream.pig
+ 1002  pig -x local
+ 1003  cd 
+ 1004  git
+ 1005  sudo apt-install git
+ 1006  sudo apt install git
+ 1007  ls
+ 1008  git
+ 1009  ls
+ 1010  cd data
+ 1011  ls
+ 1012  sudo mv pig/ ../
+ 1013  ls
+ 1014  cd ..
+ 1015  ls
+ 1016  cd java/
+ 1017  ls
+ 1018  cd ..
+ 1019  sudo git clone https://github.com/Kamakshaiah/hadoop-lab.git
+ 1020  ls
+ 1021  sudo cp mapreduce/ java/ algor/ pig/ text_files/ hadoop-lab/
+ 1022  cd hadoop-lab/
+ 1023  ls
+ 1024  sudo cp -R mapreduce/ java/ algor/ pig/ text_files/ hadoop-lab/
+ 1025  ls
+ 1026  cd ..
+ 1027  sudo cp -R mapreduce/ java/ algor/ pig/ text_files/ hadoop-lab/
+ 1028  ls
+ 1029  cd hadoop-lab/
+ 1030  ls
+ 1031  sudo git add .
+ 1032  sudo git commit -m "added files from 16.04"
+ 1033  git config --global user.email "dr.m.kamakshaiah@gmail.com"
+ 1034  git config --global user.name "Kamakshaiah"
+ 1035  sudo git commit -m "added files from 16.04"
+ 1036  git status
+ 1037  sudo git remote add origin https://github.com/Kamakshaiah/hadoop-lab.git
+ 1038  git push -u main
+ 1039  git config --global push.default matching
+ 1040  git push -u main
+ 1041  git push -u https://github.com/Kamakshaiah/hadoop-lab.git
+ 1042  git push -u https://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@github.com/Kamakshaiah/hadoop-lab.git
+ 1043  exit
+ 1044  cd 
+ 1045  jps
+ 1046  exit
+ 1047  cd 
+ 1048  hadoop fs -ls /
+ 1049  start-all.sh
+ 1050  jps
+ 1051  hadoop fs -ls /
+ 1052  hadoop fs -ls /user
+ 1053  hadoop fs -ls /user/hive
+ 1054  hadoop fs -ls /user/hive/warehouse
+ 1055  ls -ltr
+ 1056  ls -lta
+ 1057  cd metastore_db
+ 1058  ls
+ 1059  cd tmp
+ 1060  ls
+ 1061  cd
+ 1062  hive
+ 1063  cd hive/
+ 1064  cd ..
+ 1065  ls
+ 1066  ls /home/ubuntu/
+ 1067  sudo mv /home/ubuntu/students.csv /home/hduser/hive
+ 1068  ls /home/ubuntu/
+ 1069  ls /home/hduser/hive
+ 1070  cd hive/
+ 1071  ls
+ 1072  ll
+ 1073  cat students.csv 
+ 1074  cd 
+ 1075  cat .hivehistory > hive-hist.txt
+ 1076  cat hive-hist.txt 
+ 1077  cat .hivehistory 
+ 1078  exit
+ 1079  cd 
+ 1080  ll
+ 1081  cat .hivehistory | head
+ 1082  cat .hivehistory
+ 1083  cat .hivehistory > hive-hist1.txt
+ 1084  cat hive-hist1.txt 
+ 1085  jps
+ 1086  hive -S -e 'set'
+ 1087  hive -S -e 'set' | grep hive.metastore.warehouse.dir
+ 1088  ls
+ 1089  sudo mkdir hive
+ 1090  cd hive/
+ 1091  ls
+ 1092  history | tail -n 5
+ 1093  history | tail -n 10
+ 1094  sudo gedit sample-queries.hql
+ 1095  ls
+ 1096  hive -S -d | greap hive.metastore.warehouse.dir
+ 1097  hive -S -d | grep hive.metastore.warehouse.dir
+ 1098  hive -S -e | grep hive.metastore.warehouse.dir
+ 1099  hive -S -e 'set' | grep hive.metastore.warehouse.dir
+ 1100  hive -f sample-queries.hql 
+ 1101  echo $HIVE_HOME 
+ 1102  sudo chown -R hive:hive /usr/local/hive/
+ 1103  sudo chown -R hduser /usr/local/hive/
+ 1104  hive -f sample-queries.hql 
+ 1105  users
+ 1106  groups
+ 1107  sudo chown -R hduser:hadoop /usr/local/hive/
+ 1108  hive -f sample-queries.hql 
+ 1109  sudo chown -R hduser:hadoop hive
+ 1110  sudo chown -R hduser:hadoop /usr/local/hive/bin
+ 1111  hive -f sample-queries.hql 
+ 1112  cd 
+ 1113  ll
+ 1114  sudo mkdir metastore_db metastore_db.old.old
+ 1115  sudo mv metastore_db metastore_db.old.old
+ 1116  ls
+ 1117  ll
+ 1118  hive -f sample-queries.hql 
+ 1119  cd hive/
+ 1120  hive -f sample-queries.hql 
+ 1121  cd 
+ 1122  ll
+ 1123  sudo mv metastore_db metastore_db.3.old
+ 1124  cd hive/
+ 1125  ls
+ 1126  hive -f sample-queries.hql 
+ 1127  cd ..
+ 1128  hive -f hive/sample-queries.hql 
+ 1129  hive 
+ 1130  ll
+ 1131  sudo rm -rf metastore_db
+ 1132  sudo rm -rf metastore_db.3.old/
+ 1133  sudo rm -rf metastore_db.old
+ 1134  sudo mv metastore_db.old.old/ metastore_db
+ 1135  ls
+ 1136  ll
+ 1137  hive
+ 1138  sudo schematool -initSchema -dbType derby
+ 1139  schematool -initSchema -dbType derby
+ 1140  sudo mv metastore_db metastore_db.old
+ 1141  schematool -initSchema -dbType derby
+ 1142  hive -S -e 'set' | grep hive.metastore.warehouse.dir
+ 1143  history | tail -n 5 > hive/hive-schema-setup.txt
+ 1144  history | tail -n 5 >> hive/hive-schema-setup.txt
+ 1145  sudo history | tail -n 5 >> hive/hive-schema-setup.txt
+ 1146  cat history | tail -n 5 >> hive/hive-schema-setup.txt
+ 1147  history | tail -n 5
+ 1148  history | tail -n 10
+ 1149  history | tail -n 15
+ 1150  history | tail -n 15 > hive-schema-setup.txt
+ 1151  ls
+ 1152  sudo mv hive-schema-setup.txt hive/
+ 1153  ls
+ 1154  ll hive
+ 1155  cat hive/hive-schema-setup.txt 
+ 1156  cd hive/
+ 1157  ls
+ 1158  sudo gedit hive-schema-setup.txt 
+ 1159  cd 
+ 1160  ls
+ 1161  hive -f hive/hive-schema-setup.txt 
+ 1162  hive -f hive/sample-queries.hql 
+ 1163  sudo gedit hive/sample-queries.hql 
+ 1164  hive -f hive/sample-queries.hql 
+ 1165  history | tail -n 5 > hive-sample-script.txt
+ 1166  cat hive-sample-script.txt 
+ 1167  sudo mv hive-sample-script.txt  hive
+ 1168  ls
+ 1169  sudo gedit hive/hive-sample-script.txt 
+ 1170  ll hive
+ 1171  hive 
+ 1172  cat .hivehistory 
+ 1173  ll
+ 1174  cat .hivehistory > hive-hist-2.txt
+ 1175  ll
+ 1176  sudo mv hive-hist1.txt hive-hist-1.txt
+ 1177  ls
+ 1178  sudo mv hive-hist-1.txt hive-hist-2.txt hive
+ 1179  ls
+ 1180  ll
+ 1181  cd hive/
+ 1182  ll
+ 1183  cd ..
+ 1184  ls
+ 1185  ll
+ 1186  sudo cp hive hadoop-lab/
+ 1187  ll hadoop-lab/
+ 1188  sudo mkdir -p  hadoop-lab/hive
+ 1189  sudo mv hive/* hadoop-lab/hive/
+ 1190  ll hive
+ 1191  ll hadoop-lab/hive/
+ 1192  cd hadoop-lab/
+ 1193  ls
+ 1194  ll
+ 1195  sudo git status
+ 1196  sudo git add .
+ 1197  sudo git commit -m "hive material updated."
+ 1198  sudo git push https://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github.com/Kamakshaiah/hadoop-lab.git
+ 1199  sudo git push https://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.github.com/Kamakshaiah/hadoop-lab.git
+ 1200  sudo git push https://github.com/Kamakshaiah/hadoop-lab.git
+ 1201  sudo git push -f https://github.com/Kamakshaiah/hadoop-lab.git
+ 1202  cd ..
+ 1203  ls 
+ 1204  jps
+ 1205  stop-all.sh
+ 1206  jps
+ 1207  exit
+ 1208  cd 
+ 1209  hbase version
+ 1210  cd /usr/local/hbase/lib
+ 1211  cd client-facing-thirdparty/
+ 1212  ls
+ 1213  ll
+ 1214  sudo mv slf4j-log4j12-1.7.25.jar slf4j-log4j12-1.7.25.jar.olg
+ 1215  cd 
+ 1216  hadoop version
+ 1217  hbase version
+ 1218  ls
+ 1219  cd hadoop-lab/
+ 1220  ls
+ 1221  ll
+ 1222  cd hive/
+ 1223  ls
+ 1224  sudo mv students.csv employees.csv
+ 1225  ls
+ 1226  ll
+ 1227  cd 
+ 1228  sudo mv hadoop-lab/ hadoop-lab-old
+ 1229  sudo git clone https://github.com/Kamakshaiah/hadoop-lab.git
+ 1230  ll
+ 1231  sudo cp hadoop-lab-old/hive/ hadoop-lab/
+ 1232  sudo mkdir -p hadoop-lab/hive
+ 1233  ll hadoop-lab
+ 1234  sudo hadoop-lab-old/hive/* hadoop-lab/hive/
+ 1235  sudo cp hadoop-lab-old/hive/* hadoop-lab/hive/
+ 1236  cd hadoop-lab
+ 1237  ll
+ 1238  cd hive/
+ 1239  ls
+ 1240  cd ..
+ 1241  ls
+ 1242  ll
+ 1243  sudo git init .
+ 1244  sudo git add .
+ 1245  sudo git commit -m 'updated hive files.'
+ 1246  sudo git add origin https://github.com/Kamakshaiah/hadoop-lab.git
+ 1247  sudo git push -f https://github.com/Kamakshaiah/hadoop-lab.git
+ 1248  exit
+ 1249  cd 
+ 1250  ls
+ 1251  hbase version
+ 1252  hbase shell
+ 1253  jps
+ 1254  exit
+ 1255  whoami
+ 1256  exit
+ 1257  cd 
+ 1258  hbase version
+ 1259  hbase shell
+ 1260  cd /usr/local
+ 1261  ls
+ 1262  ll
+ 1263  cd hbase/
+ 1264  ls
+ 1265  cd conf/
+ 1266  ls
+ 1267  sudo gedit hbase-site.xml 
+ 1268  cd ..
+ 1269  ls
+ 1270  ll
+ 1271  sudo mkdir data
+ 1272  ll
+ 1273  cd 
+ 1274  reboot
+ 1275  jps
+ 1276  exit
+ 1277  cd
+ 1278  start-hbase.sh 
+ 1279  start-all.sh
+ 1280  jps
+ 1281  start-hbase.sh 
+ 1282  sudo chmod 777 /usr/local/hbase/
+ 1283  start-hbase.sh 
+ 1284  hbase shell
+ 1285  stop-hbase.sh 
+ 1286  cd $HBASE_HOME
+ 1287  LS
+ 1288  ls
+ 1289  ll
+ 1290  cd conf/
+ 1291  ls
+ 1292  sudo gedit hbase-site.xml 
+ 1293  start-hbase.sh 
+ 1294  sudo gedit hbase-site.xml 
+ 1295  start-hbase.sh 
+ 1296  hbase shell
+ 1297  sudo gedit hbase-site.xml 
+ 1298  start-hbase.sh 
+ 1299  hbase shell
+ 1300  sudo gedit hbase-site.xml 
+ 1301  stop-hbase.sh 
+ 1302  start-hbase.sh 
+ 1303  hbase shell
+ 1304  cd 
+ 1305  jps
+ 1306  stop-all.sh
+ 1307  exit
+ 1308  cd 
+ 1309  sudo gedit .bashrc 
+ 1310  exit
+ 1311  cd 
+ 1312  start-all.sh
+ 1313  jps
+ 1314  start-hbase.sh
+ 1315  jps
+ 1316  jp
+ 1317  jps
+ 1318  stop-hbase.sh
+ 1319  start-hbase.sh 
+ 1320  jps
+ 1321  cd /usr/local
+ 1322  ls
+ 1323  ll
+ 1324  cd hbase/
+ 1325  ls
+ 1326  cd conf/
+ 1327  ls
+ 1328  sudo gedit hbase-site.xml 
+ 1329  cd ..
+ 1330  ls
+ 1331  sudo mkdir tmp
+ 1332  sudo mkdir data
+ 1333  ll
+ 1334  groups
+ 1335  id
+ 1336  sudo chmod 777 hduser:hadoop data tmp
+ 1337  sudo chmod 777 data
+ 1338  sudo chmod 777 tmp
+ 1339  ll
+ 1340  sudo chown hduser:hadoop tmp
+ 1341  sudo chown hduser:hadoop data
+ 1342  ll
+ 1343  cd conf/
+ 1344  ls
+ 1345  sudo gedit hbase-env.sh
+ 1346  cd 
+ 1347  exit
+ 1348  ls
+ 1349  cd 
+ 1350  cd /usr/local/hbase/
+ 1351  ls
+ 1352  ll
+ 1353  cd data/
+ 1354  ls
+ 1355  ll
+ 1356  cd ..
+ 1357  ls tmp/
+ 1358  cd tmp/local/
+ 1359  ls
+ 1360  cd jars/
+ 1361  ls
+ 1362  ll
+ 1363  cd ..
+ 1364  ls
+ 1365  cd ..
+ 1366  cd data/
+ 1367  ls
+ 1368  hbase org.apache.hadoop.hbase.util.HBaseConfTool hbase.rootdir
+ 1369  ls
+ 1370  ll
+ 1371  cd .
+ 1372  ls
+ 1373  cd ..
+ 1374  ls
+ 1375  ll
+ 1376  jps
+ 1377  hadoop fs -ls /tmp/
+ 1378  hadoop fs -ls /
+ 1379  hadoop fs -ls /usr
+ 1380  hadoop fs -ls /usr/local
+ 1381  hadoop fs -ls /usr/local/hbase/
+ 1382  hadoop fs -ls /usr/local/hbase/data
+ 1383  hadoop fs -ls /usr/local/hbase/data/data
+ 1384  hadoop fs -ls /usr/local/hbase/data/data/default
+ 1385  hadoop fs -ls /usr/local/hbase/data/data/default/test
+ 1386  hadoop fs -cat /usr/local/hbase/data/data/default/test
+ 1387  hadoop fs -ls /usr/local/hbase/data/data/default/test/2e5c26a1e022e752bb446971d397b391
+ 1388  hadoop fs -ls /usr/local/hbase/data/data/default/test/2e5c26a1e022e752bb446971d397b391/cf1
+ 1389  hadoop fs -ls /usr/local/hbase/data/data/default/test/2e5c26a1e022e752bb446971d397b391/cf1/9742e2065c33461e940d5caf54de771b
+ 1390  hadoop fs -cat /usr/local/hbase/data/data/default/test/2e5c26a1e022e752bb446971d397b391/cf1/9742e2065c33461e940d5caf54de771b
+ 1391  hbase org.apache.hadoop.hbase.util.HBaseConfTool hbase.rootdir
+ 1392  cd conf/
+ 1393  sudo gedit hbase-site.xml 
+ 1394  hadoop fs -ls /usr/local/hbase/
+ 1395  hadoop fs -ls /usr/local/
+ 1396  hadoop fs -ls /usr/local/hbase/data
+ 1397  sudo gedit hbase-site.xml 
+ 1398  jps
+ 1399  cd 
+ 1400  stop-all.sh
+ 1401  cd /usr/local/hbase/conf
+ 1402  ls
+ 1403  sudo gedit hbase-env.sh
+ 1404  stop-hbase.sh
+ 1405  jps
+ 1406  exit
+ 1407  cd 
+ 1408  start-all.sh
+ 1409  start-hbase.sh 
+ 1410  jps
+ 1411  hbase shell
+ 1412  jps
+ 1413  stop-hbase.sh
+ 1414  jps
+ 1415  start-hbase.sh
+ 1416  jps
+ 1417  hbase shell
+ 1418  jps
+ 1419  exit
+ 1420  cd 
+ 1421  sudo gedit .bashrc
+ 1422  cd $HBASE_HOME
+ 1423  cd 
+ 1424  cd $HBASE_HOME
+ 1425  ls
+ 1426  ll
+ 1427  cd conf/
+ 1428  ls
+ 1429  ll
+ 1430  sudo gedit hbase-env.sh
+ 1431  sudo gedit hbase-site.xml 
+ 1432  cd 
+ 1433  start-all.sh
+ 1434  jps
+ 1435  hadoop fs -ls /
+ 1436  hadoop fs -ls /user
+ 1437  hadoop fs -ls /usr
+ 1438  hadoop fs -ls /usr/local
+ 1439  hadoop fs -ls /usr/local/hbase
+ 1440  cd $HBASE_HOME
+ 1441  cd conf/
+ 1442  sudo gedit hbase-site.xml 
+ 1443  cd ../../
+ 1444  ls
+ 1445  ll
+ 1446  c d
+ 1447  cd
+ 1448  hbase version
+ 1449  hadoop fs -ls /usr
+ 1450  hbase version
+ 1451  jps
+ 1452  start-hbase.sh 
+ 1453  jps
+ 1454  python
+ 1455  hbase shell
+ 1456  jps
+ 1457  stop-all.sh
+ 1458  stop-hbase.sh 
+ 1459  jps
+ 1460  exit
+ 1461  ls
+ 1462  sudo mv spark-3.0.3-bin-hadoop2.7/ /usr/local
+ 1463  exit
+ 1464  cd 
+ 1465  spark-shell
+ 1466  sudo gedit .bashrc 
+ 1467  hadoop version
+ 1468  cd /usr/local
+ 1469  ls
+ 1470  ll
+ 1471  sudo ln -s spark-3.0.3-bin-hadoop2.7/ spark
+ 1472  ll
+ 1473  cd 
+ 1474  sudo gedit .bashrc 
+ 1475  source .bashrc 
+ 1476  start-master.sh 
+ 1477  cd /usr/local
+ 1478  sudo chown hduser:hadoop spark
+ 1479  sudo chmod -R 777 spark
+ 1480  start-master.sh 
+ 1481  cd
+ 1482  start-worker.sh spark://ubuntu-VirtualBox:7077
+ 1483  spark-shell
+ 1484  stop-all.sh
+ 1485  jps
+ 1486  stop-master.sh 
+ 1487  stop-worker.sh
+ 1488  jps
+ 1489  exit
+ 1490  cd 
+ 1491  cd text_files/
+ 1492  ls
+ 1493  cat students.txt 
+ 1494  sudo gedit text.txt
+ 1495  exit
+ 1496  cd 
+ 1497  ls
+ 1498  pyspark
+ 1499  ls
+ 1500  sudo mkdir spark
+ 1501  ll
+ 1502  cd spark/
+ 1503  ls
+ 1504  sudo gedit /* SimpleApp.scala */
+ 1505  sudo gedit SimpleApp.scala
+ 1506  sudo gedit build.sbt
+ 1507  sudo mkdir -p /src/main/scala/
+ 1508  find .
+ 1509  ll
+ 1510  sudo mkdir -p /src/main/scala
+ 1511  ll
+ 1512  sudo mkdir src
+ 1513  ll
+ 1514  cd src/
+ 1515  sudo mkdir main
+ 1516  cd main/
+ 1517  sudo mkdir scala
+ 1518  ll
+ 1519  cd ../../../
+ 1520  cd spark/
+ 1521  ll
+ 1522  find .
+ 1523  sudo mv SimpleApp.scala src/main/scala/
+ 1524  find .
+ 1525  sbt package
+ 1526  wget http://apt.typesafe.com/repo-deb-build-0002.deb
+ 1527  sudo apt-get update
+ 1528  sudo apt install sbt
+ 1529  which sbt
+ 1530  sudo apt-get install apt-transport-https curl gnupg -yqq
+ 1531  echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
+ 1532  echo "deb https://repo.scala-sbt.org/scalasbt/debian /" | sudo tee /etc/apt/sources.list.d/sbt_old.list
+ 1533  curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo -H gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/scalasbt-release.gpg --import
+ 1534  sudo chmod 644 /etc/apt/trusted.gpg.d/scalasbt-release.gpg
+ 1535  sudo apt-get update
+ 1536  sudo apt-get install sbt
+ 1537  where sbt
+ 1538  which sbt
+ 1539  sbt package
+ 1540  sudo sbt package
+ 1541  ll
+ 1542  cd target/
+ 1543  ll
+ 1544  cd scala-2.12/
+ 1545  ll
+ 1546  spark-submit --class "SimpleApp" --master local[4] simple-project_2.12-1.0.jar 
+ 1547  cd ../../
+ 1548  ls
+ 1549  ll
+ 1550  history > spark-session.txt
+ 1551  sudo history > spark-session.txt
+ 1552  history > spark-session.txt
+ 1553  su root
+ 1554  history > spark-session.txt
+ 1555  history
+ 1556  cat history > spark-session.txt
+ 1557  touch spark-session.txt
+ 1558  sudo touch spark-session.txt
+ 1559  ll
+ 1560  cat history > spark-session.txt 
+ 1561  sudo cat history > spark-session.txt 
+ 1562  history > spark-session.txt 
+ 1563  sudo -i
+ 1564  history
+ 1565  history > spark-session.txt
+ 1566* 
+ 1567  history | > spark-session.txt
+ 1568  history | tail -n 100 spark-session.txt
+ 1569  cat spark-session.txt 
+ 1570  history | tail -n 100 > spark-session.txt
+ 1571  ll
+ 1572  sudo chmod +x hduser:hadoop spark-session.txt 
+ 1573  sudo chmod +x spark-session.txt 
+ 1574  ll
+ 1575  sudo chown -R hduser:hadoop spark-session.txt 
+ 1576  ll
+ 1577  history > spark-session.txt 
+ 1578  cat spark-session.txt 
+ 1579  sudo gdit spark-session.txt 
+ 1580  sudo gedit spark-session.txt 
+ 1581  cd 
+ 1582  lls
+ 1583  ll
+ 1584  ls
+ 1585  sudo cp spark/ hadoop-lab
+ 1586  sudo cp -R spark/ hadoop-lab
+ 1587  cd hadoop-lab
+ 1588  ll
+ 1589  cd spark/
+ 1590  ll
+ 1591  cd ..
+ 1592  ll
+ 1593  ll spark/
+ 1594  cd ..
+ 1595  ll
+ 1596  ls
+ 1597  sudo rm -r hadoop-lab-old/
+ 1598  ls
+ 1599  sudo mv hadoop-lab hadoop-lab-old
+ 1600  ls
+ 1601  sudo git clone https://github.com/Kamakshaiah/hadoop-lab.git
+ 1602  ls
+ 1603  sudo cp -r hadoop-lab-old/spark hadoop-lab
+ 1604  cd hadoop-lab
+ 1605  ll
+ 1606  cd spark/
+ 1607  ls
+ 1608  ll
+ 1609  cd ..
+ 1610  sudo git add .
+ 1611  sudo git commit -m 'updated spark programs'
+ 1612  sudo git push -f https://github.com/Kamakshaiah/hadoop-lab.git
+ 1613  sudo git push https://github.com/Kamakshaiah/hadoop-lab.git
+ 1614  ls
+ 1615  sudo cp spark/spark-session.txt mapreduce
+ 1616  cd mapreduce
+ 1617  ls
+ 1618  sudo gedit spark-session.txt 
+ 1619  cd ..
+ 1620  ls
+ 1621  sudo cp spark/spark-session.txt hive/
+ 1622  cd hive/
+ 1623  ls
+ 1624  sudo gedit spark-session.txt 
+ 1625  cd ..
+ 1626  ls
+ 1627  sudo cp spark/spark-session.txt pig
+ 1628  cd pig/
+ 1629  ls
+ 1630  sudo mv spark-session.txt pig-session.txt
+ 1631  l
+ 1632  ls
+ 1633  sudo gedit pig-session.txt 
+ 1634  cd ..
+ 1635  sudo hive
+ 1636  cd hive/
+ 1637  ls
+ 1638  sudo gedit spark-session.txt 
+ 1639  sudo rm spark-session.txt 
+ 1640  sudo mv spark-session.txt ../hive/hive-session.txt
+ 1641  sudo mv ../spark/spark-session.txt ../hive/hive-session.txt
+ 1642  ls
+ 1643  sudo gedit hive-session.txt 
+ 1644  ls
+ 1645  cat hive-session.txt 
+ 1646  cd ..
+ 1647  ls
+ 1648  cd pig
+ 1649  ls
+ 1650  sudo gedit pig-session.txt 
+ 1651  cd ..
+ 1652  ls
+ 1653  sudo mkdir hbase
+ 1654  cd hbase/
+ 1655  cd ..
+ 1656  cd spark/
+ 1657  ls
+ 1658  find .
+ 1659  ll
+ 1660  cd src/
+ 1661  ls
+ 1662  cd ..
+ 1663  history > main.txt
+ 1664  touch main.txt
+ 1665  sudo touch main.txt
+ 1666  ls
+ 1667  ll
+ 1668  sudo chown hduser main.txt 
+ 1669  ll
+ 1670  history > main.txt 

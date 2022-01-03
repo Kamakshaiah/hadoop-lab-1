@@ -1,0 +1,83 @@
+
+ 1462  sudo mv spark-3.0.3-bin-hadoop2.7/ /usr/local
+ 1463  exit
+ 1464  cd 
+ 1465  spark-shell
+ 1466  sudo gedit .bashrc 
+ 1467  hadoop version
+ 1468  cd /usr/local
+ 1469  ls
+ 1470  ll
+ 1471  sudo ln -s spark-3.0.3-bin-hadoop2.7/ spark
+ 1472  ll
+ 1473  cd 
+ 1474  sudo gedit .bashrc 
+ 1475  source .bashrc 
+ 1476  start-master.sh 
+ 1477  cd /usr/local
+ 1478  sudo chown hduser:hadoop spark
+ 1479  sudo chmod -R 777 spark
+ 1480  start-master.sh 
+ 1481  cd
+ 1482  start-worker.sh spark://ubuntu-VirtualBox:7077
+ 1483  spark-shell
+ 1484  stop-all.sh
+ 1485  jps
+ 1486  stop-master.sh 
+ 1487  stop-worker.sh
+ 1488  jps
+ 1489  exit
+ 1490  cd 
+ 1491  cd text_files/
+ 1492  ls
+ 1493  cat students.txt 
+ 1494  sudo gedit text.txt
+ 1495  exit
+ 1496  cd 
+ 1497  ls
+ 1498  pyspark
+ 1499  ls
+ 1500  sudo mkdir spark
+ 1501  ll
+ 1502  cd spark/
+ 1503  ls
+
+ 1505  sudo gedit SimpleApp.scala
+ 1506  sudo gedit build.sbt
+ 1507  sudo mkdir -p /src/main/scala/
+ 1508  find .
+ 1509  ll
+ 1510  sudo mkdir -p /src/main/scala
+ 1511  ll
+ 1512  sudo mkdir src
+ 1513  ll
+ 1514  cd src/
+ 1515  sudo mkdir main
+ 1516  cd main/
+ 1517  sudo mkdir scala
+ 1518  ll
+ 1519  cd ../../../
+ 1520  cd spark/
+ 1521  ll
+ 1522  find .
+ 1523  sudo mv SimpleApp.scala src/main/scala/
+ 1524  find .
+
+ 1530  sudo apt-get install apt-transport-https curl gnupg -yqq
+ 1531  echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list
+ 1532  echo "deb https://repo.scala-sbt.org/scalasbt/debian /" | sudo tee /etc/apt/sources.list.d/sbt_old.list
+ 1533  curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo -H gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/scalasbt-release.gpg --import
+ 1534  sudo chmod 644 /etc/apt/trusted.gpg.d/scalasbt-release.gpg
+ 1535  sudo apt-get update
+ 1536  sudo apt-get install sbt
+ 1537  where sbt
+ 1538  which sbt
+ 1539  sbt package
+ 1540  sudo sbt package
+ 1541  ll
+ 1542  cd target/
+ 1543  ll
+ 1544  cd scala-2.12/
+ 1545  ll
+ 1546  spark-submit --class "SimpleApp" --master local[4] simple-project_2.12-1.0.jar 
+

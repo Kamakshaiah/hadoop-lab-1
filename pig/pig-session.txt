@@ -1,0 +1,180 @@
+  858  hadoop version
+  859  pig --version
+  860  hive --version
+  861  hbase --version
+  862  hbase version
+  863  spark --version
+  864  spark-submit --version
+  865  spark-shell
+
+  797  start-all.sh
+  798  jps
+
+  802  cd /usr/local
+  803  ls
+  804  sudo mkdir pig
+  805  ls
+  806  cd 
+  807  ls
+  808  sudo gedit .bashrc 
+  809  source .bashrc 
+  810  pig
+  811  exit
+  812  cd 
+  813  su hduser
+  814  exit
+  815  cd 
+  816  pig
+  817  sudo gedit .bashrc
+  818  source .bashrc 
+  819  pig
+  820  ls
+  821  cd text_files/
+  822  ls
+  823  cat samplTest.txt 
+  824  sudo students.txt
+  825  sudo gedit students.txt
+  826  cd 
+  827  pig
+  828  pig -x local
+  866  exit
+  867  cd 
+  868  ls
+  869  start-all.sh
+  870  jps
+  871  pig --version
+  872  ll 
+  873  cd algor/
+  874  ls
+  875  cd 
+  876  hadoop fs -ls /
+  877  ls
+  878  sudo mkdir -p  data/pig
+  879  ls
+  880  sudo cp /etc/passwd data/pig/
+  881  cd data/pig/
+  882  ls
+  883  pig -x local
+  884  sudo pig -x local
+  885  pig -x local
+  886  exit
+  887  pig --version
+  888  exit
+  889  cd 
+  890  ls
+  891  cd data/pig/
+  892  sudo gedit passw-pig-script.pig
+  893  pig -x local passw-pig-script.pig 
+  894  sudo gedit students.txt
+  895  cd ..
+  896  cd 
+  897  exit
+  898  stop-all.sh
+  899  exit
+  900  cd 
+  901  ls
+  902  cd data/pig/
+  903  ls
+  904  sudo students-grade.pig
+  905  sudo gedit students-grade.pig
+  906  pig -x local students-grade.pig 
+  907  sudo gedit students-grade.pig
+  908  ls
+  909  pig -x local students-grade.pig 
+  910  sudo gedit students-grade.pig
+  911  sudo gedit data.txt
+  912  sudo gedit data-analysis.pig
+  913  pig -x local data-analysis.pig 
+  914  sudo gedit data-analysis.pig
+  915  pig -x local data-analysis.pig 
+  916  sudo gedit data-analysis.pig
+  917  sudo gedit data.txt
+  918  pig -x local data-analysis.pig 
+  919  sudo gedit data.txt
+  920  pig -x local data-analysis.pig 
+  921  sudo gedit data.txt
+  922  pig -x local data-analysis.pig 
+  923  sudo gedit data-analysis.pig 
+  924  pig -x local data-analysis.pig 
+  925  sudo gedit data-analysis.pig 
+  926  pig -x local data-analysis.pig 
+  927  sudo gedit data-analysis.pig 
+  928  sudo gedit column-wise-processing.pig
+  929  ls
+  930  sudo data tuples.txt
+  931  sudo gedit tuples.txt
+  932  sudo gedit columnar-processing.pig
+  933  ls
+  934  sudo gedit columnar-processing.pig
+  935  pig -x local columnar-processing.pig 
+  936  sudo gedit columnar-processing.pig
+  937  pig -x local columnar-processing.pig 
+  938  cat tuples.txt 
+  939  sudo gedit columnar-processing.pig
+  940  exit
+  941  cd 
+  942  cd data/pig/
+  943  exit
+  944  cd 
+  945  cd data/pig/
+  946  ls
+  947  sudo gedit join-demo.pig
+  948  ls
+  949  sudo gedit join-demo.pig
+  950  cat students.txt 
+  951  cat join-demo.csv 
+  952  pig -x local join-demo.pig
+  953  sudo gedit join-demo.pig
+  954  cat students
+  955  cat students.txt 
+  956  ls
+  957  sudo gedit join-demo.pig 
+  958  pig -x local join-demo.pig
+  959  sudo gedit hetegogen.txt
+  960  sudo gedit heterogen.pig
+  961  pig -x local heterogen.pig 
+  962  ls
+  963  sudo mv hetegogen.txt heterogen.txt
+  964  ls
+  965  pig -x local heterogen.pig 
+  966  cat heterogen.txt
+  967  cat heterogen.pig
+  968  sudo gedit bag.txt
+  969  sudo gedit bag-demo.pig
+  970  pig -x local bag-demo.pig 
+  971  sudo gedit bag-demo.pig
+  972  cat bag.txt 
+  973  cat bag-demo.pig 
+  974  pig -x local bag-demo.pig 
+  975  sudo gedit bag-demo.pig
+  976  pig -x local bag-demo.pig 
+  977  sudo gedit intoToCharArray.pig
+  978  cat tuples.txt 
+  979  sudo gedit singletuple.txt
+  980  sudo gedit intoToCharArray.pig
+  981  ls
+  982  ll
+  983  pig -x local intoToCharArray.pig 
+  984  ll
+  985  sudo rm singletuple.txt 
+  986  ls
+  987  ll
+  988  sudo gedit intoToCharArray.pig 
+  989  pig -x local intoToCharArray.pig 
+  990  pig -x local
+  991  sudo gedit intoToCharArray.pig 
+  992  pig -x local intoToCharArray.pig 
+  993  sudo gedit urls.txt
+  994  sudo gedit clickstream.pig
+  995  ls
+  996  sudo gedit intoToCharArray.pig 
+  997  sudo gedit clickstream.pig 
+  998  pig -x local clickstream.pig
+  999  sudo gedit clickstream.pig 
+ 1000  cat clickstream.
+ 1001  cat clickstream.pig
+ 1002  pig -x local
+ 1205  stop-all.sh
+ 1206  jps
+ 1207  exit
+

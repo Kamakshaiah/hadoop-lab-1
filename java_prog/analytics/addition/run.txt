@@ -1,0 +1,10 @@
+  122  sudo mkdir java_prog
+  124  cd java_prog/
+  125  sudo mkdir addition
+  127  cd addition/
+  128  sudo gedit Addition.java
+  133  sudo javac Addition.java 
+  153  sudo jar cmvf MANIFEST.MF addition.jar Addition.class 
+  154  java -jar addition.jar
+
+  191  history | tail -n 100 | sudo tee run.txt

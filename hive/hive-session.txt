@@ -1,0 +1,217 @@
+  727  start-all.sh 
+  728  jps
+  730  hadoop version
+  731  cd /usr/local
+  732  ls
+  733  sudo mkdir hive
+  734  cd 
+  737  pwd
+  738  cd /home/ubuntu/Downloads/
+  739  ls
+  740  cd apache-hive-2.3.6-bin/
+  741  ls
+  742  cd
+  743  pwd
+  744  sudo mv /home/ubuntu/Downloads/apache-hive-2.3.6-bin/ * /usr/local/hive/
+  745  cd /usr/local/hive/
+  746  ls
+  747  pwd
+  748  ls
+  749  cd apache-hive-2.3.6-bin/
+  750  ls
+  751  cd ..
+  752  ls
+  753  cd 
+  754  ls
+  755  pwd
+  756  cd /usr/local/hive/ * /home/hduser/
+  757  ls
+  758  sudo mv /usr/local/hive/ * /home/hduser/
+  759  ls
+  760  cd 
+  761  ls
+  762  pwd
+  763  cd apache-hive-2.3.6-bin/
+  764  ls
+  765  cd /usr/local
+  766  ls
+  767  sudo mkdir hive
+  768  ls
+  769  cd 
+  770  cd apache-hive-2.3.6-bin/
+  771  ls
+  772  sudo mv * /usr/local/hive/
+  773  ls
+  774  cd ..
+  775  ls
+  776  sudo rm r apache-hive-2.3.6-bin/
+  777  sudo rm -r apache-hive-2.3.6-bin/
+  778  ls
+  779  cd hive/
+  780  ls
+  781  cd ..
+  782  sudo rm -r hive/
+  783  ls
+  784  cd /usr/local/hive/
+  785  ls
+  786  cd conf/
+  787  ls
+  788  cd 
+  789  sudo gedit .bashrc
+  790  source .bashrc
+  791  hive
+  792  schematool -dbType mysql -info
+ 1048  hadoop fs -ls /
+ 1049  start-all.sh
+ 1050  jps
+ 1051  hadoop fs -ls /
+ 1052  hadoop fs -ls /user
+ 1053  hadoop fs -ls /user/hive
+ 1054  hadoop fs -ls /user/hive/warehouse
+ 1055  ls -ltr
+ 1056  ls -lta
+ 1057  cd metastore_db
+ 1058  ls
+ 1059  cd tmp
+ 1060  ls
+ 1061  cd
+ 1062  hive
+ 1063  cd hive/
+ 1064  cd ..
+ 1065  ls
+ 1066  ls /home/ubuntu/
+ 1067  sudo mv /home/ubuntu/students.csv /home/hduser/hive
+ 1068  ls /home/ubuntu/
+ 1069  ls /home/hduser/hive
+ 1070  cd hive/
+ 1071  ls
+ 1072  ll
+ 1073  cat students.csv 
+ 1074  cd 
+ 1075  cat .hivehistory > hive-hist.txt
+ 1076  cat hive-hist.txt 
+ 1077  cat .hivehistory 
+ 1078  exit
+ 1079  cd 
+ 1080  ll
+ 1081  cat .hivehistory | head
+ 1082  cat .hivehistory
+ 1083  cat .hivehistory > hive-hist1.txt
+ 1084  cat hive-hist1.txt 
+ 1085  jps
+ 1086  hive -S -e 'set'
+ 1087  hive -S -e 'set' | grep hive.metastore.warehouse.dir
+ 1088  ls
+ 1089  sudo mkdir hive
+ 1090  cd hive/
+ 1091  ls
+ 1092  history | tail -n 5
+ 1093  history | tail -n 10
+ 1094  sudo gedit sample-queries.hql
+ 1095  ls
+ 1096  hive -S -d | greap hive.metastore.warehouse.dir
+ 1097  hive -S -d | grep hive.metastore.warehouse.dir
+ 1098  hive -S -e | grep hive.metastore.warehouse.dir
+ 1099  hive -S -e 'set' | grep hive.metastore.warehouse.dir
+ 1100  hive -f sample-queries.hql 
+ 1101  echo $HIVE_HOME 
+ 1102  sudo chown -R hive:hive /usr/local/hive/
+ 1103  sudo chown -R hduser /usr/local/hive/
+ 1104  hive -f sample-queries.hql 
+ 1105  users
+ 1106  groups
+ 1107  sudo chown -R hduser:hadoop /usr/local/hive/
+ 1108  hive -f sample-queries.hql 
+ 1109  sudo chown -R hduser:hadoop hive
+ 1110  sudo chown -R hduser:hadoop /usr/local/hive/bin
+ 1111  hive -f sample-queries.hql 
+ 1112  cd 
+ 1113  ll
+ 1114  sudo mkdir metastore_db metastore_db.old.old
+ 1115  sudo mv metastore_db metastore_db.old.old
+ 1116  ls
+ 1117  ll
+ 1118  hive -f sample-queries.hql 
+ 1119  cd hive/
+ 1120  hive -f sample-queries.hql 
+ 1121  cd 
+ 1122  ll
+ 1123  sudo mv metastore_db metastore_db.3.old
+ 1124  cd hive/
+ 1125  ls
+ 1126  hive -f sample-queries.hql 
+ 1127  cd ..
+ 1128  hive -f hive/sample-queries.hql 
+ 1129  hive 
+ 1130  ll
+ 1131  sudo rm -rf metastore_db
+ 1132  sudo rm -rf metastore_db.3.old/
+ 1133  sudo rm -rf metastore_db.old
+ 1134  sudo mv metastore_db.old.old/ metastore_db
+ 1135  ls
+ 1136  ll
+ 1137  hive
+ 1138  sudo schematool -initSchema -dbType derby
+ 1139  schematool -initSchema -dbType derby
+ 1140  sudo mv metastore_db metastore_db.old
+ 1141  schematool -initSchema -dbType derby
+ 1142  hive -S -e 'set' | grep hive.metastore.warehouse.dir
+ 1143  history | tail -n 5 > hive/hive-schema-setup.txt
+ 1144  history | tail -n 5 >> hive/hive-schema-setup.txt
+ 1145  sudo history | tail -n 5 >> hive/hive-schema-setup.txt
+ 1146  cat history | tail -n 5 >> hive/hive-schema-setup.txt
+ 1147  history | tail -n 5
+ 1148  history | tail -n 10
+ 1149  history | tail -n 15
+ 1150  history | tail -n 15 > hive-schema-setup.txt
+ 1151  ls
+ 1152  sudo mv hive-schema-setup.txt hive/
+ 1153  ls
+ 1154  ll hive
+ 1155  cat hive/hive-schema-setup.txt 
+ 1156  cd hive/
+ 1157  ls
+ 1158  sudo gedit hive-schema-setup.txt 
+ 1159  cd 
+ 1160  ls
+ 1161  hive -f hive/hive-schema-setup.txt 
+ 1162  hive -f hive/sample-queries.hql 
+ 1163  sudo gedit hive/sample-queries.hql 
+ 1164  hive -f hive/sample-queries.hql 
+ 1165  history | tail -n 5 > hive-sample-script.txt
+ 1166  cat hive-sample-script.txt 
+ 1167  sudo mv hive-sample-script.txt  hive
+ 1168  ls
+ 1169  sudo gedit hive/hive-sample-script.txt 
+ 1170  ll hive
+ 1171  hive 
+ 1172  cat .hivehistory 
+ 1173  ll
+ 1174  cat .hivehistory > hive-hist-2.txt
+ 1175  ll
+ 1176  sudo mv hive-hist1.txt hive-hist-1.txt
+ 1177  ls
+ 1178  sudo mv hive-hist-1.txt hive-hist-2.txt hive
+ 1179  ls
+ 1180  ll
+ 1181  cd hive/
+ 1182  ll
+ 1183  cd ..
+ 1184  ls
+ 1185  ll
+ 1186  sudo cp hive hadoop-lab/
+ 1187  ll hadoop-lab/
+ 1188  sudo mkdir -p  hadoop-lab/hive
+ 1189  sudo mv hive/* hadoop-lab/hive/
+ 1190  ll hive
+ 1191  ll hadoop-lab/hive/
+ 1192  cd hadoop-lab/
+ 1193  ls
+ 1194  ll
+ 1195  sudo git status
+ 1196  sudo git add .
+ 1197  sudo git commit -m "hive material updated."
+ 1205  stop-all.sh
+ 1206  jps
+ 1207  exit
+

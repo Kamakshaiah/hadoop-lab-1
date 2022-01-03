@@ -1,0 +1,15 @@
+  194  cd ..
+  195  sudo mkdir addInputs
+  196  cd addInputs/
+  197  sudo gedit AddInputs.java
+  198  ls
+  199  sudo javac AddInputs.java 
+  200  ls
+  201  sudo gedit MANIFEST.MF
+  202  sudo jar cmvf MANIFEST.MF addinputs.jar *.class
+  203  ls
+  204  jar
+  205  java -jar addinputs.jar 1 2
+  206  java -jar addinputs.jar
+
+  208  history | tail -n 15 | sudo tee run.txt

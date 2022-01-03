@@ -1,0 +1,30 @@
+  538  exit
+  539  cd 
+  540  jps
+  541  stop-all.sh
+  542  jps
+  543  exit
+  544  cd 
+  545  ls
+  546  sudo tar xvf pig-0.17.0.tar.gz pig
+  547  sudo tar xvf pig-0.17.0.tar.gz
+  548  ls
+  549  sudo mv pig-0.17.0 /usr/local/
+  550  ls
+  551  cd /usr/local/
+  552  ls
+  553  ll -la
+  554  sudo ln -s pig-0.17.0/ pig
+  555  ll -la
+  556  sudo gedit /etc/environment
+  557  source /etc/environment
+  558  cd 
+  559  pig --version
+  560  sudo gedit .bashrc 
+  561  source .bashrc 
+  562  jps
+  563  exit
+  564  cd 
+  565  pig --version
+  566  history | tail -n 30
+  567  history | tail -n 30 > pig-install.txt

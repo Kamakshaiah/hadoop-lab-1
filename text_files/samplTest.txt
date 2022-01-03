@@ -1,0 +1,1 @@
+Apache Hadoop is an open source software framework used for distributed storage and processing of dataset of big data using the MapReduce programming model.

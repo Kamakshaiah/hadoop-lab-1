@@ -1,0 +1,12 @@
+show tables;
+schematool -dbType mysql -info
+show databases;
+exit
+;
+create database test;
+show databases;
+use test;
+create table employee(name string, sal int);
+insert into table employee(name, sal) values('mk', 70000);
+select * from employee;
+exit;

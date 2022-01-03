@@ -1,2 +1,2 @@
-# hadoop-lab-1
-Back up lab material for hadoop classes
+# hadoop-lab
+Hadoop Exercises for Hadoop Lab

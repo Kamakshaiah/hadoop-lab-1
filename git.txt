@@ -1,0 +1,46 @@
+
+ 1558  sudo touch spark-session.txt
+ 1559  ll
+ 1572  sudo chmod +x hduser:hadoop spark-session.txt 
+ 1573  sudo chmod +x spark-session.txt 
+ 1574  ll
+ 1575  sudo chown -R hduser:hadoop spark-session.txt 
+ 1576  ll
+ 1577  history > spark-session.txt 
+ 1578  cat spark-session.txt 
+ 1579  sudo gdit spark-session.txt 
+ 1580  sudo gedit spark-session.txt 
+ 1581  cd 
+ 1582  lls
+ 1583  ll
+ 1584  ls
+ 1585  sudo cp spark/ hadoop-lab
+ 1586  sudo cp -R spark/ hadoop-lab
+ 1587  cd hadoop-lab
+ 1588  ll
+ 1589  cd spark/
+ 1590  ll
+ 1591  cd ..
+ 1592  ll
+ 1593  ll spark/
+ 1594  cd ..
+ 1595  ll
+ 1596  ls
+ 1597  sudo rm -r hadoop-lab-old/
+ 1598  ls
+ 1599  sudo mv hadoop-lab hadoop-lab-old
+ 1600  ls
+ 1601  sudo git clone https://github.com/Kamakshaiah/hadoop-lab.git
+ 1602  ls
+ 1603  sudo cp -r hadoop-lab-old/spark hadoop-lab
+ 1604  cd hadoop-lab
+ 1605  ll
+ 1606  cd spark/
+ 1607  ls
+ 1608  ll
+ 1609  cd ..
+ 1610  sudo git add .
+ 1611  sudo git commit -m 'updated spark programs'
+ 1612  sudo git push -f https://github.com/Kamakshaiah/hadoop-lab.git
+ 1613  sudo git push https://github.com/Kamakshaiah/hadoop-lab.git
+

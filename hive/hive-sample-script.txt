@@ -1,0 +1,2 @@
+ 1132  hive -f hive/sample-queries.hql 
+ 1133  history | tail -n 5 > hive-sample-script.txt

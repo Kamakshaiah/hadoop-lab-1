@@ -1,0 +1,204 @@
+  830  source .bashr
+  831  source .bashrc
+  832  cd $HBASE_HOME
+  833  LS
+  834  ls
+  835  cd conf/
+  836  ls
+  837  sudo gedit hbase-env.sh
+  838  update-alternatives --display java
+  839  sudo gedit hbase-env.sh
+  840  ls
+  841  sudo gedit hbase-site.xml 
+  842  cd 
+  843  hbase
+  844  hbase shell
+  845  cd $HBASE_HOME
+  846  ls
+  847  cd conf/
+  848  ls
+  849  sudo gedit hbase-site.xml 
+  850  cd 
+  851  hbase shell
+
+ 1209  hbase version
+ 1210  cd /usr/local/hbase/lib
+ 1211  cd client-facing-thirdparty/
+ 1212  ls
+ 1213  ll
+ 1214  sudo mv slf4j-log4j12-1.7.25.jar slf4j-log4j12-1.7.25.jar.olg
+ 1215  cd 
+ 1216  hadoop version
+ 1217  hbase version
+
+ 1251  hbase version
+ 1252  hbase shell
+ 1253  jps
+ 1254  exit
+ 1255  whoami
+ 1256  exit
+ 1257  cd 
+ 1258  hbase version
+ 1259  hbase shell
+ 1260  cd /usr/local
+ 1261  ls
+ 1262  ll
+ 1263  cd hbase/
+ 1264  ls
+ 1265  cd conf/
+ 1266  ls
+ 1267  sudo gedit hbase-site.xml 
+ 1268  cd ..
+ 1269  ls
+ 1270  ll
+ 1271  sudo mkdir data
+ 1272  ll
+ 1273  cd 
+ 1274  reboot
+ 1275  jps
+ 1276  exit
+ 1277  cd
+ 1278  start-hbase.sh 
+ 1279  start-all.sh
+ 1280  jps
+ 1281  start-hbase.sh 
+ 1282  sudo chmod 777 /usr/local/hbase/
+ 1283  start-hbase.sh 
+ 1284  hbase shell
+ 1285  stop-hbase.sh 
+ 1286  cd $HBASE_HOME
+ 1287  LS
+ 1288  ls
+ 1289  ll
+ 1290  cd conf/
+ 1291  ls
+ 1292  sudo gedit hbase-site.xml 
+ 1293  start-hbase.sh 
+ 1303  hbase shell
+
+ 1336  sudo chmod 777 hduser:hadoop data tmp
+ 1337  sudo chmod 777 data
+ 1338  sudo chmod 777 tmp
+ 1339  ll
+ 1340  sudo chown hduser:hadoop tmp
+ 1341  sudo chown hduser:hadoop data
+ 1342  ll
+ 1343  cd conf/
+ 1344  ls
+ 1345  sudo gedit hbase-env.sh
+ 1346  cd 
+ 1347  exit
+ 1348  ls
+ 1349  cd 
+ 1350  cd /usr/local/hbase/
+ 1351  ls
+ 1352  ll
+ 1353  cd data/
+ 1354  ls
+ 1355  ll
+ 1356  cd ..
+ 1357  ls tmp/
+ 1358  cd tmp/local/
+ 1359  ls
+ 1360  cd jars/
+ 1361  ls
+ 1362  ll
+ 1363  cd ..
+ 1364  ls
+ 1365  cd ..
+ 1366  cd data/
+ 1367  ls
+ 1368  hbase org.apache.hadoop.hbase.util.HBaseConfTool hbase.rootdir
+ 1369  ls
+ 1370  ll
+ 1371  cd .
+ 1372  ls
+ 1373  cd ..
+ 1374  ls
+ 1375  ll
+ 1376  jps
+ 1377  hadoop fs -ls /tmp/
+ 1378  hadoop fs -ls /
+ 1379  hadoop fs -ls /usr
+ 1380  hadoop fs -ls /usr/local
+ 1381  hadoop fs -ls /usr/local/hbase/
+ 1382  hadoop fs -ls /usr/local/hbase/data
+ 1383  hadoop fs -ls /usr/local/hbase/data/data
+ 1384  hadoop fs -ls /usr/local/hbase/data/data/default
+ 1385  hadoop fs -ls /usr/local/hbase/data/data/default/test
+ 1386  hadoop fs -cat /usr/local/hbase/data/data/default/test
+ 1387  hadoop fs -ls /usr/local/hbase/data/data/default/test/2e5c26a1e022e752bb446971d397b391
+ 1388  hadoop fs -ls /usr/local/hbase/data/data/default/test/2e5c26a1e022e752bb446971d397b391/cf1
+ 1389  hadoop fs -ls /usr/local/hbase/data/data/default/test/2e5c26a1e022e752bb446971d397b391/cf1/9742e2065c33461e940d5caf54de771b
+ 1390  hadoop fs -cat /usr/local/hbase/data/data/default/test/2e5c26a1e022e752bb446971d397b391/cf1/9742e2065c33461e940d5caf54de771b
+ 1391  hbase org.apache.hadoop.hbase.util.HBaseConfTool hbase.rootdir
+ 1392  cd conf/
+ 1393  sudo gedit hbase-site.xml 
+ 1394  hadoop fs -ls /usr/local/hbase/
+ 1395  hadoop fs -ls /usr/local/
+ 1396  hadoop fs -ls /usr/local/hbase/data
+ 1397  sudo gedit hbase-site.xml 
+ 1398  jps
+ 1399  cd 
+ 1400  stop-all.sh
+ 1401  cd /usr/local/hbase/conf
+ 1402  ls
+ 1403  sudo gedit hbase-env.sh
+ 1404  stop-hbase.sh
+ 1405  jps
+ 1406  exit
+ 1407  cd 
+ 1408  start-all.sh
+ 1409  start-hbase.sh 
+ 1410  jps
+ 1411  hbase shell
+ 1412  jps
+ 1413  stop-hbase.sh
+ 1414  jps
+ 1415  start-hbase.sh
+ 1416  jps
+ 1417  hbase shell
+ 1418  jps
+ 1419  exit
+ 1420  cd 
+ 1421  sudo gedit .bashrc
+ 1422  cd $HBASE_HOME
+ 1423  cd 
+ 1424  cd $HBASE_HOME
+ 1425  ls
+ 1426  ll
+ 1427  cd conf/
+ 1428  ls
+ 1429  ll
+ 1430  sudo gedit hbase-env.sh
+ 1431  sudo gedit hbase-site.xml 
+ 1432  cd 
+ 1433  start-all.sh
+ 1434  jps
+ 1435  hadoop fs -ls /
+ 1436  hadoop fs -ls /user
+ 1437  hadoop fs -ls /usr
+ 1438  hadoop fs -ls /usr/local
+ 1439  hadoop fs -ls /usr/local/hbase
+ 1440  cd $HBASE_HOME
+ 1441  cd conf/
+ 1442  sudo gedit hbase-site.xml 
+ 1443  cd ../../
+ 1444  ls
+ 1445  ll
+ 1446  c d
+ 1447  cd
+ 1448  hbase version
+ 1449  hadoop fs -ls /usr
+ 1450  hbase version
+ 1451  jps
+ 1452  start-hbase.sh 
+ 1453  jps
+ 1454  python
+ 1455  hbase shell
+ 1456  jps
+ 1457  stop-all.sh
+ 1458  stop-hbase.sh 
+ 1459  jps
+ 1460  exit
+

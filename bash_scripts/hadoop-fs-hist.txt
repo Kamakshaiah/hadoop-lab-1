@@ -1,0 +1,118 @@
+    1  cd 
+    2  ssh-keygen -t rsa
+    3  ssh-copy-id hadoopuser@master
+    4  sudo ssh-copy-id hadoopuser@master
+    5  ssh-copy-id hadoopuser@master
+    6  ssh-copy-id hadoopuser@slave
+    7  sudo nano /usr/local/hadoop/etc/hadoop/core-site.xml
+    8  sudo nano /usr/local/hadoop/etc/hadoop/hdfs-site.xml
+    9  sudo nano /usr/local/hadoop/etc/hadoop/workers
+   10  scp /usr/local/hadoop/etc/hadoop/* slave:/usr/local/hadoop/etc/hadoop/
+   11  source /etc/environment
+   12  sudo gedit /etc/environment
+   13  source /etc/environment
+   14  hdfs namenode -format
+   15  sudo gedit /etc/environment
+   16  source /etc/environment
+   17  hdfs namenode -format
+   18  scp /etc/environment slave:/etc/
+   19  scp /etc/environment slave
+   20  hdfs namenode -format
+   21  start-dfs.sh
+   22  jps
+   23  stop-dfs.sh
+   24  start-dfs.sh
+   25  jps
+   26  export HADOOP_HOME="/usr/local/hadoop"
+   27  export HADOOP_COMMON_HOME=$HADOOP_HOME
+   28  export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+   29  export HADOOP_HDFS_HOME=$HADOOP_HOME
+   30  export HADOOP_MAPRED_HOME=$HADOOP_HOME
+   31  export HADOOP_YARN_HOME=$HADOOP_HOME
+   32  sudo nano /usr/local/hadoop/etc/hadoop/yarn-site.xml
+   33  start-yarn.sh
+   34  stop-all.sh
+   35  jps
+   36  exit
+   37  cd 
+   38  start-all.sh
+   39  jps
+   40  hdfs dfsadmin -report
+   41  sudo systemctl stop firewalld
+   42  sudo ufw status
+   43  hadoop fs -ls /
+   44  sudo apt install iptables-persistent 
+   45  sudo iptables -L
+   46  sudo iptables-save > /usr/iptables-backup/iptables.v4.rules
+   47  sudo iptables-save > /usr/iptables.v4.rules
+   48  jps
+   49  hadoop fs -mkdir /data
+   50  hadoop fs -ls 
+   51  hadoop fs -ls /
+   52  cd ..
+   53  cd 
+   54  pwd
+   55  cd ..
+   56  ls
+   57  cd /
+   58  ls
+   59  cd 
+   60  pwd
+   61  sudo mkdir data
+   62  sudo gedit gender.txt
+   63  ls
+   64  sudo mv gender.txt data/
+   65  ls
+   66  hostname
+   67  sudo /etc/hosts
+   68  sudo gedit /etc/hosts
+   69  stop-all.sh
+   70  jps
+   71  exit
+   72  cd 
+   73  start-all.sh
+   74  jps
+   75  ls
+   76  cd data/
+   77  ls
+   78  cat gendermaster.txt 
+   79  pwd
+   80  hadoop fs -ls /
+   81  ls
+   82  hadoop fs -ls /data
+   83  hadoop fs -rm -r /data
+   84  hadoop fs -ls /
+   85  hadoop fs -copyFromLocal gendermaster.txt /data
+   86  hadoop fs -ls /
+   87  hadoop fs -ls /data
+   88  hadoop fs -cat /data
+   89  hadoop fs -rm -r /data
+   90  hadoop fs -mkdir /data
+   91  hadoop fs -ls /
+   92  hadoop fs -copyFromLocal gendermaster.txt /data
+   93  hadoop fs -ls /data
+   94  hadoop fs -cat /data/gendermaster.txt
+   95  cat gendermaster.txt 
+   96  sudo gedit gendermaster.txt 
+   97  hadoop fs -appendToFile gendermaster.txt /data/gendermaster.txt
+   98  hadoop fs -cat /data/gendermaster.txt
+   99  cd 
+  100  cd $HADOOP_HOME
+  101  cd /usr/local/hadoop/sbin/
+  102  ls
+  103  cd ..
+  104  cd share/
+  105  ls
+  106  cd hadoop/
+  107  ls
+  108  cd mapreduce/
+  109  ls
+  110  hadoop jar hadoop-mapreduce-examples-3.2.2.jar 
+  111  hadoop jar hadoop-mapreduce-examples-3.2.2.jar wordcount /data/gendermaster.txt /data/out1
+  112  cd 
+  113  stop-all.sh
+  114  jps
+  115  exit
+  116  cd 
+  117  history
+  118  history > hadoop-fs-hist.txt

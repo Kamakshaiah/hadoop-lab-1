@@ -1,0 +1,4 @@
+ 1108  sudo mv metastore_db metastore_db.old
+ 1109  schematool -initSchema -dbType derby
+ 1110  hive -S -e 'set' | grep hive.metastore.warehouse.dir
+

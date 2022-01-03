@@ -1,0 +1,53 @@
+show tables;
+schematool -dbType mysql -info
+show databases;
+exit
+;
+create database test;
+show databases;
+use test;
+create table employee(name string, sal int);
+insert into table employee(name, sal) values('mk', 70000);
+select * from employee;
+exit;
+show databases
+;
+show databases; 
+exit
+;
+show databases;
+exit;
+show databases; 
+show tables; 
+use default; 
+show tables; 
+create database testdb; 
+show databases; 
+use testdb; 
+create table employees(id int, name string, salaray double) row format delimited fields terminated by ','; 
+show tables; 
+select * from employees; 
+!pwd; 
+!cat students.csv;
+!cat students.csv
+;
+!ls;
+!cat hive/students.csv;
+load data local inpath 'hive/students.csv' into table employees; 
+select * from employees; 
+describe employees; 
+select employees.id from employees; 
+select employees.name from employees; 
+select employees.salary from employees; 
+describe employees;  
+alter table employees replace columns (id int, name string, salary double); 
+describe employees; 
+select employees.salary from employees; 
+select avg(employees.salary) from employees; 
+select employees.name from employees where employee.salary < 61.5; 
+select employees.name from employees where employees.salary < 61.5; 
+select * from employees where employees.salary < avg(employees.salary); 
+select * from employees where employees.salary < 61.5;  
+select max(employees.salary) from employees; 
+exit
+;
