@@ -1,0 +1,3 @@
+notepad manifest.txt
+jar cvfm random.jar manifest.txt RandomDemo.class
+java -cp random.jar RandomDemo
