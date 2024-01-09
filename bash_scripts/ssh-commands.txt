@@ -1,0 +1,9 @@
+ssh-keygen -t rsa -P "" 
+
+ssh-copy-id user@hostname.example.com
+ssh-copy-id "user@hostname.example.com -p <port-number>"
+ssh-copy-id "user@host -p 6842"
+cat ~/.ssh/id_rsa.pub | ssh <user>@<hostname> 'cat >> .ssh/authorized_keys && echo "Key copied"'
+ssh-copy-id -i "user@hostname.example.com -p2222"
+[Move ~/.ssh to the new machine and run ssh-add. DONE!]
+ssh-copy-id -i ~/.ssh/path-to-rsa.pub -p 2222 myusername@hostname.tld
